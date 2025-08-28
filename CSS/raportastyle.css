@@ -123,7 +123,7 @@ body {
   margin-bottom: 20px;
 }
 .perelik {
-  margin-bottom: 20px;
+  font-weight: 600;
 }
 .div-perelik {
   display: flex;
@@ -134,6 +134,11 @@ body {
 .div-perelik:hover {
   fill: rgb(204, 107, 28);
   color: rgb(204, 107, 28);
+}
+.opis {
+  width: 200px;
+  font-size: 12px;
+  font-style: italic;
 }
 
 /*========================FOOTER============================*/
