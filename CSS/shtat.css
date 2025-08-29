@@ -1,0 +1,131 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+.container {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+/*------------------------------------------------------------------*/
+/*======================HEAD======================*/
+.head-style-div {
+  background-color: rgb(77, 86, 71);
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(77, 86, 71);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.nav-style {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+.logo {
+  fill: rgb(255, 255, 255);
+  display: block;
+}
+.h1-style {
+  width: 335px;
+}
+.nav-ul-style {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-li-style:nth-child(1) {
+  background-color: rgb(132, 156, 146);
+}
+.nav-li-style {
+  border: 1px solid rgb(160, 155, 155);
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 0 2px 2px 1px black;
+}
+
+.nav-li-style:hover,
+.nav-li-style:focus {
+  border: 1px solid rgb(84, 95, 74);
+  color: rgb(77, 86, 71);
+  background-color: white;
+}
+
+/*======================SECTION-1===================*/
+
+.main-section-1 {
+  background-color: rgb(77, 86, 71);
+}
+.main-title {
+  padding-top: 150px;
+  background-image: linear-gradient(
+      rgba(77, 86, 71, 0.9),
+      rgba(77, 86, 71, 0.9)
+    ),
+    url('../images/fon-sektion.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-clip: padding-box;
+  background-position: center;
+  min-height: 600px;
+}
+
+/*========================FOOTER============================*/
+
+.footer-style {
+  background-color: rgb(0, 0, 0);
+}
+.footers {
+  display: flex;
+  gap: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-p {
+  color: white;
+}
+.footer-p-roz {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.footer-p-dvz {
+  color: rgb(180, 187, 142);
+  font-size: 25px;
+  font-weight: 700;
+}
