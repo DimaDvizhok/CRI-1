@@ -1,0 +1,65 @@
+@import url('./modern-normalize.css');
+@import url('./reset.css');
+
+/*------------------HEAD------------------------------------------------*/
+@import url('./head.css');
+/*------------------/FOOTER-------------------*/
+@import url('./footer.css');
+
+/*===============SECTION-1=================*/
+
+.main-section-1 {
+  background-color: rgb(77, 86, 71);
+}
+.main-title {
+  padding-top: 150px;
+  background-image: linear-gradient(rgba(77, 86, 71, 0.9), rgba(77, 86, 71, 0.9)),
+    url('../images/fon-sektion.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-clip: padding-box;
+  background-position: center;
+  padding-bottom: 100px;
+  /* min-height: 600px; */
+}
+.section-one-h2 {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+.section-one-ul {
+  display: flex;
+  gap: 30px;
+  color: white;
+  flex-wrap: wrap;
+}
+.section-one-li {
+  border: 1px solid black;
+  width: calc((100% - 60px) / 2);
+
+  box-shadow: 0px 2px 3px rgba(44, 45, 61, 0.7);
+  background-color: rgb(71, 69, 69);
+  min-width: 450px;
+}
+.section-one-h3 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  background-color: rgb(81, 79, 79);
+  box-shadow: 0px 2px 3px rgb(54, 53, 53);
+}
+.section-one-li:hover {
+  background-color: rgb(81, 79, 79);
+}
+
+.section-one-li-ul {
+  font-size: 12px;
+  text-align: left;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

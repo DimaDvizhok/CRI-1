@@ -1,0 +1,24 @@
+@import url('./modern-normalize.css');
+@import url('./reset.css');
+
+/*------------------HEAD------------------------------------------------*/
+@import url('./head.css');
+/*------------------/FOOTER-------------------*/
+@import url('./footer.css');
+
+/*======================SECTION-1===================*/
+
+.main-section-1 {
+  background-color: rgb(77, 86, 71);
+}
+.main-title {
+  padding-top: 150px;
+  background-image: linear-gradient(rgba(77, 86, 71, 0.9), rgba(77, 86, 71, 0.9)),
+    url('../images/fon-sektion.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+  background-clip: padding-box;
+  background-position: center;
+  min-height: 600px;
+}

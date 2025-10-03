@@ -1,0 +1,53 @@
+.head-style-div {
+  background-color: rgb(77, 86, 71);
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(77, 86, 71);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+}
+.logo-a {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  color: #f29104;
+  gap: 10px;
+}
+
+.nav-style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 20px;
+}
+.logo {
+  fill: #f29104;
+  display: block;
+}
+
+.nav-ul-style {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-li-style {
+  border: 1px solid rgb(160, 155, 155);
+  border-radius: 4px;
+  box-shadow: 0 2px 2px 1px black;
+}
+.header-nav-link {
+  display: block;
+  padding: 8px;
+}
+
+.nav-li-style:hover,
+.nav-li-style:focus {
+  border: 1px solid rgb(84, 95, 74);
+  color: rgb(77, 86, 71);
+  background-color: white;
+}
